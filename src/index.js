@@ -1,10 +1,14 @@
+// libs
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import QRGenerator from './components/QRGenerator/';
+
+// styles
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QRGenerator />
   </React.StrictMode>,
   document.getElementById('root')
 );

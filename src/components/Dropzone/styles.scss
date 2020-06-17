@@ -1,0 +1,20 @@
+.Dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dropzone__drag {
+  width: 100%;
+  padding: 3rem;
+  border: 1px dashed black;
+  background-color: #eaeaea;
+  margin-top: 2rem;
+  width: 25rem;
+  cursor: pointer;
+  
+  &--active {
+    background-color: greenyellow;
+  }
+}
